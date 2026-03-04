@@ -1,0 +1,57 @@
+/* * {
+  box-sizing: border-box;
+} */
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* common */
+a {
+  text-decoration: none;
+  color: black;
+}
+.header {
+  margin: 50px 0;
+}
+.main-content {
+  width: 81.25%;
+  margin: 0 auto;
+}
+.body-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: grey; */
+}
+.nav {
+  width: 38.1%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.body-header .box {
+  display: flex;
+}
+.body-header .sign {
+  width: 108px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-header .sign-up {
+  color: #1ebfc1;
+  border: 2px solid #1ebfc1;
+  border-radius: 10px;
+}
+
+.body-header a:hover {
+  font-weight: 600;
+}
+.body-header a.active {
+  font-weight: 600;
+}
