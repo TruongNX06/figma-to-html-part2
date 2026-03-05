@@ -564,3 +564,37 @@ a {
   border-radius: 14px;
   margin-left: 480px;
 }
+
+/* phần footer */
+footer {
+  padding-top: 1px;
+}
+.body-footer {
+  margin-top: 90px;
+}
+.body-footer .box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  align-items: flex-start;
+}
+.body-footer .box h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.body-footer .box p {
+  font-size: 1.6rem;
+  margin-top: 20px;
+}
+.body-footer .box i {
+  display: block;
+  margin-top: 20px;
+}
+.body-footer .box span {
+  margin-left: 4px;
+}
+.body-footer .box + p {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
