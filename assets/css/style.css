@@ -532,3 +532,35 @@ a {
   top: 100px;
   right: 180px;
 }
+
+/* phần cta */
+.cta {
+  background-color: #def6f5;
+}
+.body-cta {
+  display: flex;
+  align-items: center;
+  margin-top: 95px;
+  height: 272px;
+}
+.body-cta .info h1 {
+  color: #070707;
+  font-weight: 700;
+  font-size: 4.2rem;
+}
+.body-cta .info p {
+  color: #767e7e;
+  font-size: 1.8rem;
+  margin-top: 25px;
+}
+.body-cta a {
+  width: 186px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 68px;
+  color: #fff;
+  background-color: #2ac9bf;
+  border-radius: 14px;
+  margin-left: 480px;
+}
