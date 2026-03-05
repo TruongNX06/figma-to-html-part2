@@ -318,6 +318,90 @@ a {
   line-height: 27px;
 }
 
-.test {
+/* phần courses */
+.body-courses {
   margin-top: 100px;
+  position: relative;
+}
+.body-courses h3 {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.body-courses h1 {
+  font-size: 4.2rem;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.body-courses h1 + p {
+  color: #767e7e;
+  font-size: 1.8rem;
+  line-height: 32px;
+  width: 44.87%;
+}
+.body-courses a.direction {
+  text-decoration: underline;
+  position: absolute;
+  color: #1ebfc1;
+  font-size: 1.4rem;
+  font-weight: 700;
+  top: 125px;
+  right: 0;
+}
+.body-courses .box-parents {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.body-courses .box {
+  width: 30.68%;
+  opacity: 70%;
+  position: relative;
+}
+.body-courses .img {
+  width: 100%;
+}
+.body-courses .info {
+  width: 90.53%;
+  position: absolute;
+  background-color: #fff;
+  top: 205px;
+  left: 17px;
+  right: 17px;
+}
+.body-courses .info .detail {
+  margin-left: 17px;
+}
+.body-courses .info h2 {
+  margin-top: 15px;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.body-courses .info p:nth-child(2) {
+  font-size: 1.6rem;
+  margin-top: 20px;
+}
+.body-courses .info span {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.body-courses .info p:nth-child(3) {
+  font-size: 1.4rem;
+  color: #9da6a5;
+  margin-top: 10px;
+}
+.body-courses .info .total {
+  display: flex;
+  margin: 20px 0;
+}
+.body-courses .info li {
+  color: #9da6a5;
+  font-size: 1.4rem;
+  margin-left: 17px;
+}
+.body-courses .info li:nth-child(2) {
+  margin-left: 25px;
+}
+.body-courses .info li::marker {
+  color: #1ebfc1;
 }
