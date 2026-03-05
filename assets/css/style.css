@@ -272,3 +272,52 @@ a {
   justify-content: center;
   color: #fff;
 }
+
+/* phần features */
+.body-features {
+  margin-top: 160px;
+}
+.body-features h3 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #767e7e;
+}
+.body-features h1 {
+  font-size: 4.2rem;
+  line-height: 58px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.body-features h1 + p {
+  font-size: 1.8rem;
+  color: #767e7e;
+}
+.body-features .box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  width: 87.5%;
+}
+.body-features .box1 {
+  width: 16.4%;
+}
+.body-features .box2 {
+  width: 21.78%;
+}
+.body-features .box3 {
+  width: 21.87%;
+}
+.body-features .box h2 {
+  margin: 20px 0;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.body-features .box p {
+  color: #9da6a5;
+  font-size: 1.8rem;
+  line-height: 27px;
+}
+
+.test {
+  margin-top: 100px;
+}
