@@ -405,3 +405,21 @@ a {
 .body-courses .info li::marker {
   color: #1ebfc1;
 }
+
+/* phần statistics */
+.body-stat {
+  display: flex;
+
+  width: 73.67%;
+  margin: 250px auto 250px;
+  justify-content: space-between;
+}
+.body-stat .box h1 {
+  font-size: 6.2rem;
+  font-weight: 700;
+  text-align: center;
+}
+.body-stat .box p {
+  font-size: 1.8rem;
+  text-align: center;
+}
